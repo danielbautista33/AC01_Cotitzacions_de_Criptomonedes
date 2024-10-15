@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btnNumerical" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">#FFECB3</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:backgroundTint">#FF5722</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+
+    </style>
+
+    <style name="btnFuncional" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">#FFECB3</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:backgroundTint">#2294FF</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>  
+        <item name="android:autoSizeTextType">uniform</item>
+
+    </style>
+
+    <style name="textViewDisplay" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">#FFECB3</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">#FF9800</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+
+    </style>
+
+    <style name="textViewSelectedCrypto" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">#FFECB3</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">#009688</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+
+    </style>
+
+    <style name="textViewActualPrice" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">#FFECB3</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">#FFEB3B</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+
+    </style>
+
+    <style name="imgDelete">
+        <item name="android:textColor">#FFECB3</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">#9C27B0</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+
+    </style>
+
+    <style name="imgEditCryptoPrice">
+        <item name="android:textColor">#FFECB3</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">#E91E63</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+
+    </style>
+
+    <style name="imgCryptos">
+        <item name="android:textColor">#FFECB3</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">#4CAF50</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:autoSizeTextType">uniform</item>
+
+    </style>
+
+</resources>

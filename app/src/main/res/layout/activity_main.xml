@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineVertical25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineVertical50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineVertical75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineHoritzontal10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineHoritzontal25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineHoritzontal40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.40" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineHoritzontal55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineHoritzontal70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.70" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineHoritzontal85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <Button
+        android:id="@+id/btnValue1"
+        style="@style/btnNumerical"
+        android:text="@string/value1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal85" />
+
+    <Button
+        android:id="@+id/btnValue2"
+        style="@style/btnNumerical"
+        android:text="@string/value2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical50"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical25"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal85" />
+
+    <Button
+        android:id="@+id/btnValue3"
+        style="@style/btnNumerical"
+        android:text="@string/value3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical50"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal85" />
+
+    <Button
+        android:id="@+id/btnValue4"
+        style="@style/btnNumerical"
+        android:text="@string/value4"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal85"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal70" />
+
+    <Button
+        android:id="@+id/btnValue5"
+        style="@style/btnNumerical"
+        android:text="@string/value5"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal85"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical50"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical25"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal70" />
+
+    <Button
+        android:id="@+id/btnValue6"
+        style="@style/btnNumerical"
+        android:text="@string/value6"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal85"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical50"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal70" />
+
+    <Button
+        android:id="@+id/btnValue7"
+        style="@style/btnNumerical"
+        android:text="@string/value7"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal70"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal55" />
+
+    <Button
+        android:id="@+id/btnValue8"
+        style="@style/btnNumerical"
+        android:text="@string/value8"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal70"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical50"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical25"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal55" />
+
+    <Button
+        android:id="@+id/btnValue9"
+        style="@style/btnNumerical"
+        android:text="@string/value9"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal70"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical50"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal55" />
+
+    <Button
+        android:id="@+id/btnValue0"
+        style="@style/btnFuncional"
+        android:text="@string/value0"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal85"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal70" />
+
+    <Button
+        android:id="@+id/btnValueComma"
+        style="@style/btnFuncional"
+        android:text="@string/valueComma"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal85" />
+
+    <Button
+        android:id="@+id/btnClear"
+        style="@style/btnFuncional"
+        android:text="@string/valueClear"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal70"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal55" />
+
+    <TextView
+        android:id="@+id/textViewCryptoDisplay"
+        style="@style/textViewDisplay"
+        android:text="@string/valueDefaultDisplays"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal25"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textViewNumberDisplay"
+        style="@style/textViewDisplay"
+        android:text="@string/valueDefaultDisplays"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal40"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal25" />
+
+    <TextView
+        android:id="@+id/textViewSelectedCrypto"
+        style="@style/textViewSelectedCrypto"
+        android:text="Aqui es posa la crypto (BTC)"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal10" />
+
+    <TextView
+        android:id="@+id/textViewActualPrice"
+        style="@style/textViewActualPrice"
+        android:text="@string/valueDefaultDisplays"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal10"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgDelete"
+        style="@style/imgDelete"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal25"
+        app:srcCompat="@android:drawable/ic_input_delete" />
+
+    <ImageView
+        android:id="@+id/imageViewEditPrice"
+        style="@style/imgEditCryptoPrice"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <ImageView
+        android:id="@+id/imgCryptoBitcoin"
+        style="@style/imgCryptos"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:src="@mipmap/bitcoin_icon_round"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal55"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal40" />
+
+    <ImageView
+        android:id="@+id/imgCryptoEtherum"
+        style="@style/imgCryptos"
+        android:src="@mipmap/etherum_icon_foreground"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal55"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical50"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical25"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal40" />
+
+    <ImageView
+        android:id="@+id/imgCryptoTether"
+        style="@style/imgCryptos"
+        android:src="@mipmap/tether_icon"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal55"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical50"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal40" />
+
+    <ImageView
+        android:id="@+id/imgCryptoXrp"
+        style="@style/imgCryptos"
+        android:src="@mipmap/xrp_icon_foreground"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineHoritzontal55"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guidelineVertical75"
+        app:layout_constraintTop_toTopOf="@+id/guidelineHoritzontal40" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
